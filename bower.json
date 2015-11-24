@@ -1,0 +1,29 @@
+{
+  "name": "pets",
+  "version": "0.1.0",
+  "homepage": "",
+  "description": "An example of RESTful API with PHP",
+  "main": "formCadastro.html",
+  "keywords": [
+    "rest",
+    "ajax",
+    "php",
+    "slim"
+  ],
+  "authors": [
+    "Liipe"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "pure": "~0.6.0"
+  }
+}

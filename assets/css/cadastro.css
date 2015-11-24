@@ -1,0 +1,137 @@
+*  {
+	margin:0;
+	padding:0;
+	font:normal 12px Arial;
+	color:#000;
+} 
+
+h1.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 80px;
+  font-family: fantasy;
+  width:280px;
+}
+
+div#header {
+	background:#04B404;
+	display:table;
+	margin-bottom:10px;
+	width:100%;
+}
+
+body {
+	background: #cfa;
+}
+
+fieldset {
+	border:none;
+	margin:160px auto 0;
+	width:280px;
+	padding-right:12px;
+}
+
+legend {
+	background:url("../images/bg-legendcadastro.png") no-repeat scroll right center transparent;
+	height:82px;
+	margin:0 0 30px;
+	text-indent:-999px;
+	width:257px;
+}
+
+label {
+	clear:both;
+	display:block;
+	float:right;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:10px;
+	color:#000;
+}
+
+input {
+	background:#000;
+	border:1px solid #1D3980;
+	width:170px;
+	color:#000;
+	padding:4px;
+	-moz-border-radius:4px 4px 4px 4px;
+}
+
+
+input:hover {
+	border:1px solid #555 !important;
+}
+
+input.name,input.telefone,input.email, input.rua, input.bairro, input.numero, input.cidade {
+	background: 2px center #FFFFFF;
+}
+
+input.button {
+	background: #088A08;
+	border:1px solid;
+	color:#FFF;
+	display:block;
+	float:right;
+	font-weight:bold;
+	margin:0 auto;
+	padding:3px;
+	width:70px;
+}
+
+h1 {
+	color:#fff;
+	font-family:Arial;
+	font-size:18px;
+	margin:4px 6px 7px;
+	float:left;
+}
+
+input.button:hover {
+	cursor:pointer;
+}
+
+div.sair {
+	float:right;
+	margin:10px 12px 0 0;
+}
+
+div.voltar {
+	float:left;
+	margin:10px 12px 0 0;
+}
+
+div.sair a, div.voltar a {
+	font-weight:bold;
+	color:#fff;
+}
+
+div.sair strong, div.voltar strong {
+	font-weight:bold;
+}
+
+div.sair span, div.sair strong, div.voltar span, div.voltar strong {
+	color:#DFE6F2;
+}
+
+div.actions {
+	float:right;
+	margin:0 6px 2px 0;
+}
+
+a {
+	color:#316EA2;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a.voltar {
+	background:url("images/voltar.png") no-repeat scroll 0 -4px transparent;
+	display:block;
+	font-weight:bold;
+	margin-bottom:9px;
+	padding:0 0 0 23px;
+}

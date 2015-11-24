@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Task List</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" />
+<link rel="stylesheet" href="assets/css/pure-min.css" />
+<link rel="stylesheet" href="assets/css/main2.css" />
+
+
+</head>
+<body>
+
+<header>
+	<h1>Task List</h1>
+</header>
+
+<form class="pure-form pure-form-aligned">
+	<fieldset>
+		<div class="pure-control-group">
+			<label for="name">Pet's Name</label>
+			<input id="name" type="text" placeholder="Pet's Name" required>
+		</div>
+
+		<div class="pure-control-group">
+			<label for="mytask">Task</label>
+			<input id="mytask" type="text" placeholder="Task" required>
+		</div>
+		
+		<div class="pure-controls">
+			<button type="submit" class="pure-button pure-button-primary">Submit</button>
+		</div>
+	</fieldset>
+</form>
+
+<section id="taskList">
+</section>
+
+<script src="assets/js/libs/jquery.min.js"></script>
+<script src="assets/js/PetService.js"></script>
+<script src="assets/js/PetController.js"></script>
+
+</body>
+</html>

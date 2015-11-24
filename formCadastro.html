@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Animals Pet Shop</title>
+
+<link rel="stylesheet" href="assets/css/cadastro.css" />
+
+</head>
+<body>
+
+<div id="header">
+    <div class="voltar">
+		<a href="index.html">Voltar</a>	
+	</div>   
+	 
+	<div class="sair">
+		<a href="main.html">Logar</a>	
+	</div>
+</div>
+
+
+<form class="" action="actions/saveContato.action.php" method="post">
+	<fieldset>
+		<legend>Cadastro</legend>
+		
+		<label for="name">
+			Nome: 
+			<input type="text" class="name" name="name" id="name" required/>	
+		</label>
+		
+		<label for="email">
+			Email: 
+			<input type="text" class="email" name="email" id="email" required/>	
+		</label>
+		
+		<label for="telefone">
+			Telefone: 
+			<input type="text" class="telefone" name="telefone" id="telefone" required/>	
+		</label>
+		
+		<label for="rua">
+			Rua: 
+			<input type="text" class="rua" name="rua" id="rua" required/>	
+		</label>
+		
+		<label for="bairro">
+			Bairro: 
+			<input type="text" class="bairro" name="bairro" id="bairro" required/>	
+		</label>
+		
+		<label for="numero">
+			Número: 
+			<input type="text" class="numero" name="numero" id="numero" required/>	
+		</label>
+		
+		<label for="cidade">
+			Cidade: 
+			<input type="text" class="cidade" name="cidade" id="cidade" required/>	
+		</label>
+		
+		<input type="submit" class="button" value="Enviar" />
+	</fieldset>
+</form>
+
+<section id="petsList">
+</section>
+
+<!--<script src="bower_components/jquery/dist/jquery.min.js"></script>-->
+<!--<script src="bower_components/blueimp-md5/js/md5.min.js"></script>-->
+<!--<script src="assets/js/PetService.js"></script>-->
+<!--<script src="assets/js/PetController.js"></script>-->
+
+</body>
+</html>

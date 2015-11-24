@@ -1,0 +1,53 @@
+body {
+background:#04B404;	
+}
+
+section {
+	padding:10px;
+}
+
+section dl {
+	width: 340px;
+	height: 80px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 3px #ccc, -1px -1px 3px #ccc;
+	float: left;
+	margin-right: 10px;
+}
+
+.photo {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.photo img {
+	width: 100%;
+	height: 100%;
+}
+
+.name, .mytask {
+	width: 200px;
+	float: left;
+	margin: 12px 0 0 8px;
+}
+
+.name {
+	font-family: Ubuntu;
+	font-size: 20px;
+}
+
+.name img {
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.mytask {
+	color: black;
+	cursor: pointer;
+	padding-left: 20px;
+}
+h1 {
+	font-family: Lobster;
+	text-indent: 10px;
+}

@@ -1,0 +1,92 @@
+*  {
+	margin:0;
+	padding:0;
+	font:normal 12px Arial;
+	color:#000;
+} 
+
+h1.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 80px;
+  font-family: fantasy;
+  width:280px;
+  float:none;
+}
+
+fieldset {
+	border:none;
+	margin:160px auto 0;
+	width:280px;
+	padding-right:12px;
+}
+
+
+body {
+	background: #cfa;
+}
+
+div#header {
+	background:#04B404;
+	display:table;
+	margin-bottom:10px;
+	width:100%;
+}
+
+h1 {
+	color:#fff;
+	font-family:Arial;
+	font-size:18px;
+	margin:4px 6px 7px;
+	float:left;
+}
+
+div.dados-user {
+	float:right;
+	margin:10px 12px 0 0;
+}
+
+div.dados-user a {
+	font-weight:bold;
+	color:#fff;
+}
+
+div.dados-user strong {
+	font-weight:bold;
+}
+
+div.dados-user span, div.dados-user strong {
+	color:#DFE6F2;
+}
+
+div.actions {
+	float:right;
+	margin:0 6px 2px 0;
+}
+
+a {
+	color:#316EA2;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a.voltar {
+	background:url("images/voltar.png") no-repeat scroll 0 -4px transparent;
+	display:block;
+	font-weight:bold;
+	margin-bottom:9px;
+	padding:0 0 0 23px;
+}
+
+.register{
+    margin: 40px auto;
+    border: 3px solid #000;
+    width: 500px;
+}
+
+.task {
+	margin-left: 1230px;
+}
